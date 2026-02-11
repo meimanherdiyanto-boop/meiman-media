@@ -1,0 +1,77 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Body background */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #dfe9f3 0%, #ffffff 100%);
+}
+
+/* Profile card */
+.profile-card {
+  background: #2c2c2c;
+  color: #fff;
+  width: 300px;
+  padding: 30px 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  transition: 0.3s ease-in-out;
+}
+
+.profile-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Profile picture */
+.profile-picture {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #1da1f2;
+}
+
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Name */
+.profile-card h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #1da1f2;
+}
+
+/* Description */
+.profile-card p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #ddd;
+  margin-bottom: 20px;
+}
+
+/* Social icons */
+.social-icons a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #1da1f2;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #fff;
+}
